@@ -1,18 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Site com Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        h1 {
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .video-container iframe {
+            width: 320px;
+            height: 240px;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+
+        .video-container video {
+            width: 320px;
+            height: 240px;
+            margin: 10px;
+            border: 2px solid #ddd;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
+    <h1>Bem-vindo ao meu site com vídeos</h1>
 
-    <p>tutuffyuf</p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/KFp3PHmchks?si=xXkFqpzadep0z9dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-container">
+        <div class="video-item">
+            <video controls>
+                <source src="assets/videos/video1.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="assets/videos/video2.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="assets/videos/video3.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="assets/videos/video4.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+        <div class="video-item">
+            <video controls>
+                <source src="assets/videos/video5.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
+        </div>
+    </div>
 
-
-    <h1>uuvuhhvyh </h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/y1k73AriNco?si=OAj19yZc-ZTXHIpV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+    <footer>
+        <p>Feito com ♥ por você!</p>
+    </footer>
 </body>
 </html>
